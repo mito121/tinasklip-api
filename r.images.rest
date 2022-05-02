@@ -1,0 +1,7 @@
+## Get all images
+GET http://localhost:3001/images
+
+###
+
+## Delete image
+DELETE http://localhost:3001/images/624ad3cf971de78e931c3749

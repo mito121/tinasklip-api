@@ -1,0 +1,34 @@
+## Get all services
+GET http://localhost:3001/services
+
+###
+
+## Get single service
+GET http://localhost:3001/services/624a47301e098b36557d2eb5e
+
+###
+
+## Create service
+POST http://localhost:3001/services
+Content-Type: application/json
+
+{
+    "name": "Herreklip u. vask",
+    "price": "300"
+}
+
+###
+
+## Delete service
+DELETE http://localhost:3001/services/624a47391e098b36557d2ebd
+
+###
+
+## Update service
+PATCH http://localhost:3001/services/624abeb99dcf9b154d60dcac
+Content-Type: application/json
+
+{
+    "name": "Dameklip u. vask",
+    "price": "330"
+}
